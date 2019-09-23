@@ -1,0 +1,138 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+@media (max-width: 575.98px) {
+
+    /*  Banner part start  */
+    header {
+        padding: 10px 15px;
+    }
+
+    header button i {
+        border: 1px solid #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        color: #b2de1d;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    header ul.navbar-nav {
+        text-align: center;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+
+    #banner_part {
+        padding: 60px 0;
+    }
+
+    .banner_text h5 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .banner_text h1 {
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 8px;
+    }
+
+    .banner_text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .banner_text a {
+        font-size: 12px;
+        padding: 12px 20px;
+        margin-top: 25px;
+    }
+
+    /*  Banner part end  */
+
+    /*  About part Start  */
+    .about_head h2 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .about_head p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    .about_head p span {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .about_text i {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    #service {
+        margin-top: 50px;
+    }
+
+
+
+
+    /*  About part end  */
+
+    /*  Service part Start  */
+    .head h2 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .head p {
+        font-size: 14px;
+        padding-top: 5px;
+        line-height: 30px;
+    }
+
+    .head2 p {
+        padding: 0px 0px;
+    }
+
+    .head2 {
+        padding-bottom: 40px;
+    }
+
+
+
+
+    /*  Service part end  */
+
+
+
+
+
+
+
+
+
+
+
+}
