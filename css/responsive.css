@@ -1,138 +1,307 @@
-@media (min-width: 1200px) {}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
+/*xl device*/
+@media (min-width: 1200px){
     
 }
-
-@media (max-width: 575.98px) {
-
-    /*  Banner part start  */
-    header {
-        padding: 10px 15px;
+/*lg device*/
+@media(min-width:992px) and (max-width: 1199.98px){
+    
+}
+/*md device*/
+@media (min-width:768px) and (max-width: 991.98px){
+    .m-menu .container .navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 26px;
+	color: white;
+	padding: 11px 0px !important;
+}
+    .navbar-light .navbar-toggler {
+	color: #cfc91d;
+	font-size: 28px;
+}
+    .menu .navbar-nav .nav-item a {
+	padding: 10px 0;
+	padding-left: 0px;
+	font-size: 13px;
+	line-height: 31px;
+}
+    #cover .container .row .col-lg-10 .cover_text h1 {
+	font-size: 50px;
+	letter-spacing: 13px;
+}
+    #cover .container .row .col-lg-10 .cover_text img {
+	padding-top: 17px;
+}
+    .cover_btn a {
+	font-size: 13px;
+	font-weight: 800;
+	padding: 11px 40px;
+	margin-top: 23px;
+}
+    #cover {
+	padding-top: 200px;
+	padding-bottom: 150px;
+}
+    .about_head h2 {
+	font-size: 42px;
+}
+    .ser1-c h1 {
+	font-size: 42px;
+}
+    .ser1-c p {
+	padding-right: 364px;
+}
+    .ser-r h1 {
+	font-size: 12px;
+	font-weight: 700;
+}
+    .work-c h1 {
+	font-size: 42px;
+}
+    .overlay h1 {
+	font-size: 16px;
+	padding-top: 13px;
+}
+    .overlay p {
+	font-size: 14px;
+}
+    .contact-c h1 {
+	font-size: 42px;
+}
+    .form .btn {
+	padding: 9px 53px;
+	font-size: 13px;
+}
+}
+/*sm device*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    .m-menu .container .navbar-brand {
+	padding: 9px 0px !important;
+}
+    .navbar-light .navbar-toggler {
+	color: #cfc91d;
+	font-size: 25px;
+}
+    #cover .container .row .col-lg-10 .cover_text h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding-top: 0px;
+}
+    #cover .container .row .col-lg-10 .cover_text h1 {
+	font-size: 39px;
+	letter-spacing: 8px;
+	line-height: 62px;
+}
+  #cover .container .row .col-lg-10 .cover_text img {
+	padding-top: 11px;
+	width: 92px;
+}  
+    .cover_btn a {
+	font-size: 13px;
+	padding: 9px 32px;
+	margin-top: 16px;
+}
+    #cover {
+	padding-top: 200px;
+	padding-bottom: 133px;
+}
+    .menu .navbar-nav .nav-item a {
+	padding-left: 0px;
+	line-height: 31px;
+}
+    .about_head h2 {
+	font-size: 35px;
+	padding-top: 40px;
+}
+    .about-slider {
+	padding-top: 5px;
+	padding-bottom: 45px;
+}
+    .ser1-c h1 {
+	font-size: 35px;
+	padding-top: 0px;
+}
+    .ser1-c {
+	padding-bottom: 0px;
+}
+    .ser-3 {
+	padding-top: 0px;
+}
+    #service {
+	padding-bottom: 50px;
+}
+    .ser-r{
+        margin-top: 20px;
     }
-
-    header button i {
-        border: 1px solid #fff;
-        padding: 4px 10px;
-        border-radius: 4px;
-        color: #b2de1d;
+    .work-c h1 {
+	font-size: 35px;
+}
+    .work-c {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+    .overlay h1 {
+	padding-top: 30px;
+}
+    .contact-c {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+    .contact-c h1 {
+	font-size: 35px;
+}
+    .form .btn {
+	padding: 8px 46px;
+	font-size: 13px;
+}
+}
+/*xs device*/
+@media (max-width: 575.98px){
+    .m-menu .container .navbar-brand {
+	padding: 6px 12px !important;
     }
-
-    .navbar-toggler {
-        padding: 0;
-
-    }
-
+    .navbar-light .navbar-toggler {
+	color: #cfc91d;
+	font-size: 22px;
+}
     .navbar-toggler:focus {
         outline: 0;
     }
-
-    header ul.navbar-nav {
-        text-align: center;
-    }
-
-    header nav .navbar-nav .nav-item .nav-link {
-        line-height: 40px;
-    }
-
-    #banner_part {
-        padding: 60px 0;
-    }
-
-    .banner_text h5 {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-
-    .banner_text h1 {
-        font-size: 32px;
-        line-height: 35px;
-        letter-spacing: 8px;
-    }
-
-    .banner_text p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 30px;
-        margin-bottom: 20px;
-    }
-
-    .banner_text a {
-        font-size: 12px;
-        padding: 12px 20px;
-        margin-top: 25px;
-    }
-
-    /*  Banner part end  */
-
-    /*  About part Start  */
+    #cover .container .row .col-lg-10 .cover_text h5 {
+	font-size: 12px;
+}
+    #cover .container .row .col-lg-10 .cover_text h1 {
+	font-size: 20px;
+	letter-spacing: 7px;
+	line-height: 44px;
+}
+    #cover .container .row .col-lg-10 .cover_text p {
+	font-size: 12px;
+	line-height: 13px;
+}
+   #cover .container .row .col-lg-10 .cover_text img {
+	padding-top: 13px;
+       width: 70px;
+}
+.cover_btn a {
+	font-size: 12px;
+	padding: 8px 18px;
+	margin-top: 17px;
+}
+#cover {
+	padding-top: 113px;
+	padding-bottom: 81px;
+}
+    .menu .navbar-nav .nav-item a {
+	padding: 10px 0;
+	padding-left: 0px;
+	line-height: 15px;
+	text-align: center !important;
+}
     .about_head h2 {
-        font-size: 30px;
-        padding-top: 30px;
-    }
-
+	font-size: 25px;
+	padding-top: 30px;
+}
+    .about_head img {
+	padding-top: 0px;
+	width: 100px;
+}
     .about_head p {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-
+	font-size: 12px;
+	padding-top: 0px;
+	line-height: 17px;
+}
     .about_head p span {
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .about_text i {
-        font-size: 22px;
-        padding-bottom: 5px;
-    }
-
+	font-size: 14px;
+	line-height: 19px;
+}
+    .about-slider {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+    .ser1-c h1 {
+	font-size: 25px;
+	padding-top: 0px;
+}
     #service {
-        margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 34px;
+}
+    .ser1-c img {
+	padding-top: 0;
+	width: 100px;
+}
+    .ser1-c p {
+	font-size: 12px;
+	line-height: 19px;
+	padding-top: 7px;
+}
+    .ser1-c {
+	padding-bottom: 20px;
+}
+    .ser-r{
+        padding-bottom: 15px;
     }
-
-
-
-
-    /*  About part end  */
-
-    /*  Service part Start  */
-    .head h2 {
-        font-size: 30px;
-        padding-top: 30px;
+    .ser-3 {
+	padding-top: 0px;
+}
+    .work-c h1 {
+	font-size: 25px;
+}
+    .work-c img {
+	padding-top: 0px;
+	width: 100px;
+}
+    .work-c {
+	padding-top: 30px;
+	padding-bottom: 6px;
+}
+    .work-c p {
+	font-size: 12px;
+	line-height: 19px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+    .contact-c h1 {
+	font-size: 25px;
+}
+    .contact-c {
+	padding-top: 29px;
+	padding-bottom: 18px;
+}
+    .contact-c img {
+	padding-top: 0px;
+	width: 100px;
+}
+    .contact-c p {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 19px;
+	padding-top: 0px;
+}
+    #form {
+	background: #0b0b0b;
+	padding-top: 20px;
+}
+.form .form-control {
+	margin-bottom: 10px;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+    .form .btn {
+	padding: 5px 35px;
+	font-size: 14px;
+	margin-top: 15px;
+}
+    .form {
+	padding-bottom: 37px;
+}
+    #footer {
+	background: #000000;
+	padding-top: 6px;
+	padding-bottom: 12px;
+}
+    .footer p{
+	font-size: 13px;
     }
-
-    .head p {
-        font-size: 14px;
-        padding-top: 5px;
-        line-height: 30px;
-    }
-
-    .head2 p {
-        padding: 0px 0px;
-    }
-
-    .head2 {
-        padding-bottom: 40px;
-    }
-
-
-
-
-    /*  Service part end  */
-
-
-
-
-
-
-
-
-
-
-
 }
